@@ -1,0 +1,27 @@
+{
+	"name": "shrinkpress/index",
+	"description": "ShrinkPress\\Index: extract entities from WordPress code",
+	"require":
+	{
+		"php": ">=7.0",
+		"nikic/php-parser": "^4.3"
+	},
+	"require-dev":
+	{
+		"kktsvetkov/brutalno": "^0.1"
+	},
+	"authors":
+	[
+		{
+		"name": "Kaloyan Tsvetkov",
+		"homepage": "https://github.com/kktsvetkov"
+		}
+	],
+	"autoload":
+	{
+		"psr-4":
+		{
+			"ShrinkPress\\Index\\": "src"
+		}
+	}
+}
